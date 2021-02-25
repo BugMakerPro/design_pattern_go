@@ -16,6 +16,7 @@
 
 #### 参考
 
-> [小争哥](https://time.geekbang.org/column/intro/100039001 "Markdown")
+> [小争哥](https://time.geekbang.org/column/intro/100039001 "Markdown")  
+>
 > [golang-design-pattern](https://github.com/senghoo/golang-design-pattern "Markdown")
 
