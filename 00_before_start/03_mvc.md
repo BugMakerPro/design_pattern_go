@@ -16,8 +16,8 @@
 
 　　且每个视图都有一个相关的控制器组件。控制器接受输入，通常作为将鼠标移动、鼠标按钮的活动或键盘输入编码的时间。时间被翻译成模型或试图的服务器请求。用户仅仅通过控制器与系统交互。
 
- ![avatar](https://github.com/BugMakerPro/design_pattern_go/blob/main/99_pic/1027054-20180521151956650-1028459743.png)  
- ![avatar](https://github.com/BugMakerPro/design_pattern_go/blob/main/99_pic/1027054-20180521211804330-2131474660.png)  
+ ![avatar](./../99_pic/1027054-20180521151956650-1028459743.png)  
+ ![avatar](./../99_pic/1027054-20180521211804330-2131474660.png)  
   
 
 二、结构
@@ -73,7 +73,7 @@
 
 　　运行原理如图所示：  
 
- ![avatar](https://github.com/BugMakerPro/design_pattern_go/blob/main/99_pic/1027054-20180522173053209-1511254402.png)  
+ ![avatar](./../99_pic/1027054-20180522173053209-1511254402.png)  
 
 (1)Http请求：客户端请求提交到DispatcherServlet。
 (2)寻找处理器：由DispatcherServlet控制器查询一个或多个HandlerMapping，找到处理请求的Controller。
@@ -119,4 +119,4 @@
 　　例如②，一个采用比例表示的用于政治选举的一个简单信息系统，它提供了一个输入数据的电子数据表和表示当前结果的几种图标。用户可以通过图形接口与系统交互。所有信息显示必须立即反应出选举数据的变化。（引用自《面向模式的软件体系结构-卷1 模式系统》）
 
 　　即，一旦模型的数据发生了变化，模型要通报所有的视图。
- ![avatar](https://github.com/BugMakerPro/design_pattern_go/blob/main/99_pic/1027054-20180521213111249-418565410.png)  
+ ![avatar](./../99_pic/1027054-20180521213111249-418565410.png)  
