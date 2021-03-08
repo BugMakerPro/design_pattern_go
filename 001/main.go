@@ -26,3 +26,20 @@ type OffNovelBook struct {
 func (n *OffNovelBook)GetPrice()  {
 	fmt.Println("OffNovelBook")
 }
+
+
+type Game interface {
+	initPlay()
+	start()
+	end()
+}
+
+type GameStarter struct {
+
+}
+
+func (s GameStarter)Start(g Game)  {
+	g.initPlay()
+	g.start()
+	g.end()
+}
